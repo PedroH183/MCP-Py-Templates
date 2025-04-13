@@ -1,3 +1,5 @@
+# <div align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" width="100" height="100" alt="AdventureWorks"/></div>
+
 # AdventureWorks for PostgreSQL + Elasticsearch
 
 ETL pipeline para indexar dados do PostgreSQL no Elasticsearch e criar um MCP Server para buscas.
@@ -11,6 +13,14 @@ Subir um ambiente com:
 4. Futuro MCP Server para realizar buscas nos índices
 
 ## Stack
+
+<div align="center">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="Elasticsearch" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+</div>
+
 - PostgreSQL
 - Elasticsearch
 - Kibana (opcional para visualização)
