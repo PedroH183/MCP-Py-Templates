@@ -10,7 +10,7 @@ Subir um ambiente com:
 3. Serviço ETL para migração dos dados
 4. Futuro MCP Server para realizar buscas nos índices
 
-## Stack Tecnológica
+## Stack
 - PostgreSQL
 - Elasticsearch
 - Kibana (opcional para visualização)
