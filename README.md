@@ -41,16 +41,8 @@ docker compose up --build
   - `init/`: Configuração inicial do PostgreSQL
 - `docker-compose.yml`: Orquestração dos serviços
 
-## Futuros Passos
-
-1. Implementar o MCP Server para:
-   - Receber um índice e texto como entrada
-   - Realizar buscas no Elasticsearch
-   - Retornar resultados relevantes
-
-## Exemplo de Uso Futuro
-
-```python
-from mcp_server import search
-
-results = search(index="produtos", query="bike mountain")
+## Etapas de Execução 
+1. Primeiro ele carrega a base de dados com os produtos no postgres
+2. Segunto é criado um index do elasticsearch para buscas envolvendo os produtos carregados (baseados em uma view)
+3. Terceiro é instanciado uma view no Kibana para visualização da corretude dos dados carregados
+4. A pipeline não carrega o MCP apenas disponibiliza para acesso via agente.
